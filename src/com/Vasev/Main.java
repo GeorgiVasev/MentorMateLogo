@@ -1,30 +1,24 @@
-package com.Vasev;
+package com.vasev;
 
 import java.util.Scanner;
 
 
 public class Main {
 
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Please enter size ");
-
 
         int size = in.nextInt();
         System.out.println();
         System.out.println("N = " + size);
 
-
         if (size > 2 && size <= 10000 && (size % 2) != 0) {
-
             printMM(size);
-
         } else {
-
             System.out.println(size + " is an invalid number!");
             System.out.println("Number must be odd.");
-
         }
     }
 
@@ -194,7 +188,7 @@ public class Main {
                 starCounterTwoM2 += 2;
             }
 
-            if (i > rowCount / 2 - 1 && i == rowCount / 2)starCounterTwoM2 -= 2;
+            if (i > rowCount / 2 - 1 && i == rowCount / 2) starCounterTwoM2 -= 2;
             if (i > rowCount / 2) gapCounterTwoM2 += 2;
 
             //printing empty space for the last part of M
