@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4b2ac102-d685-4003-9b24-fb3fd6ec470e" name="Default Changelist" comment="" />
+    <list default="true" id="4b2ac102-d685-4003-9b24-fb3fd6ec470e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/vasev/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/vasev/Main.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/vasev/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+            <state relative-caret-position="581">
+              <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -36,8 +38,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="108" />
     <option name="y" value="46" />
-    <option name="width" value="1348" />
-    <option name="height" value="1037" />
+    <option name="width" value="1781" />
+    <option name="height" value="1068" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -76,7 +78,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582199527453" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1582227361199" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -121,10 +123,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="108" y="46" width="1348" height="1037" extended-state="0" />
+    <frame x="108" y="46" width="1781" height="1068" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24042879" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18056354" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -134,7 +136,7 @@
       <window_info id="Favorites" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2761905" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.26741803" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -166,8 +168,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/vasev/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="90" column="35" lean-forward="true" selection-start-line="90" selection-start-column="35" selection-end-line="90" selection-end-column="35" />
+        <state relative-caret-position="581">
+          <caret line="68" column="42" selection-start-line="68" selection-start-column="42" selection-end-line="68" selection-end-column="42" />
         </state>
       </provider>
     </entry>
