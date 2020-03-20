@@ -23,52 +23,56 @@ public class Main {
         String space = "-";
         String star = "*";
 
-        // Sets how many rows M will have
+        // Sets how many rows will M have
         int rowCount = size + 1;
 
-        // Counters for M
-        int indentCounter = size;
+        int spaceCounter = size;
         int starCounter = size;
-        int gapCounter = size;
         int starCounterTwo = size;
+        int gapCounter = size;
         int gapCounterTwo = size;
-        int outerCounter = size;
 
         for (int i = 1; i <= rowCount; i++) {
             System.out.println();
 
-            String s0 = space.repeat(indentCounter);
-            String s1 = star.repeat(starCounter);
-            String s2 = space.repeat(gapCounter);
-            String s3 = star.repeat(starCounterTwo);
+            int m = 0;
+            while (m < 2) {
 
-            String s4 = "";
-            String s5 = "";
+                System.out.print(space.repeat(spaceCounter));
+                System.out.print(star.repeat(starCounter));
+                System.out.print(space.repeat(gapCounter));
+                System.out.print(star.repeat(starCounterTwo));
 
-            if (i > rowCount / 2) {
-                starCounterTwo -= 2;
-                gapCounter += 2;
-                s4 = space.repeat(gapCounterTwo);
-                s5 = star.repeat(size);
-                gapCounterTwo += 2;
+                if (i > rowCount / 2) {
+                    System.out.print(space.repeat(gapCounterTwo));
+                    System.out.print(star.repeat(size));
+                }
+
+                System.out.print(space.repeat(spaceCounter));
+
+                m++;
             }
 
-            if (i < rowCount / 2) {
+            if (i > rowCount / 2) {
+
+                starCounterTwo -= 2;
+                gapCounter += 2;
+                gapCounterTwo += 2;
+
+            } else if (i < rowCount / 2) {
+
                 gapCounterTwo -= 2;
                 gapCounter -= 2;
                 starCounter += 2;
                 starCounterTwo += 2;
+
+            } else {
+
+                starCounter -= size - 1;
+
             }
 
-            String s6 = space.repeat(outerCounter);
-
-            if (i > rowCount / 2 - 1 && i == rowCount / 2) starCounter -= size - 1;
-
-            indentCounter--;
-            outerCounter--;
-
-            String m = s0 + s1 + s2 + s3 + s4 + s5 + s6;
-            System.out.print(m.repeat(2));
+            spaceCounter--;
         }
     }
 
