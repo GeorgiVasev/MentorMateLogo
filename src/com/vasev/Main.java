@@ -1,4 +1,4 @@
-package com.vasev;
+package com.Vasev;
 
 import java.util.Scanner;
 
